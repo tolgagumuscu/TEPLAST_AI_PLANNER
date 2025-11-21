@@ -1,85 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TE PLAST Üretim Asistanı</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- DHTMLX Gantt Chart CSS -->
-    <link href="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.css" rel="stylesheet">
-    <script>
-      tailwind.config = {
-        darkMode: 'class',
-        theme: {
-          extend: {
-            colors: {
-              'brand-primary': '#0A2342', // Dark blue for text and main elements
-              'brand-secondary': '#1E3A5F', // A slightly lighter blue
-              'brand-accent': '#2563eb', // A brighter blue for interaction
-              'brand-bg': '#f8fafc', // Light slate background
-            },
-            fontFamily: {
-              sans: ['"Exo 2"', 'sans-serif'],
-            },
-            animation: {
-              'fade-in': 'fadeIn 0.5s ease-out',
-            },
-            keyframes: {
-              fadeIn: {
-                '0%': { opacity: '0', transform: 'translateY(10px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
-              }
-            }
-          }
-        }
-      }
-    </script>
-
-<!-- SheetJS library for Excel parsing -->
-<script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
-<!-- DHTMLX Gantt Chart JS -->
-<script src="https://cdn.dhtmlx.com/gantt/edge/dhtmlxgantt.js"></script>
-<!-- Babel Standalone for in-browser TSX/JSX transpilation -->
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<link rel="stylesheet" href="/index.css">
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.0",
-    "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
-    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@0.14.0",
-    "vite": "https://aistudiocdn.com/vite@^7.2.4",
-    "vitest": "https://aistudiocdn.com/vitest@^4.0.10",
-    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1",
-    "react-window": "https://aistudiocdn.com/react-window@^2.2.3",
-    "react-virtualized-auto-sizer": "https://aistudiocdn.com/react-virtualized-auto-sizer@^1.0.26",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "vitest/": "https://aistudiocdn.com/vitest@^4.0.12/"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/TEPLAST_AI_PLANNER/assets/index-Cz27CHIl.js"></script>
-</head>
-<body>
-  <div id="root"></div>
-  <script type="text/babel" data-type="module" src="./index.tsx"></script>
-  <script src="./sw.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./sw.js').then(registration => {
-          console.log('SW registered: ', registration);
-        }).catch(registrationError => {
-          console.log('SW registration failed: ', registrationError);
-        });
-      });
-    }
-  </script>
-</body>
+    <title>TEPLAST AI PLANNER</title>
+    <script type="module" crossorigin src="/TEPLAST_AI_PLANNER/assets/index-CNLnsIUI.js"></script>
+    <link rel="stylesheet" crossorigin href="/TEPLAST_AI_PLANNER/assets/index-Ng5tmFbx.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
